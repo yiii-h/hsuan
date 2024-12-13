@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(253, 215, 145);
+    height: 80px;
+    width:100%;
+    position:fixed;
+}
+
+h1{
+    color: rgb(122, 74, 10);
+    position: absolute;
+    left:120px;
+    top:0pt;
+    line-height: 80px;
+    background-image: url(image/Logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 210px;
+    text-indent: -99999999px;
+}
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+}
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a{
+    color: rgb(122, 74, 10);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: rgb(248, 239, 153);
+    text-decoration: underline
+}
+
+.商店{
+    background-color: antiquewhite;
+    color: rgb(214, 165, 58);
+    background-image: url(image/banner.png);
+    height:  85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.商店 h2{
+    font-size: 60px;
+}
+
+.商店 p{
+    color: rgb(219, 138, 63);
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+.商店 a{
+    color: bisque;
+    text-decoration: none;
+    border: 1px solid rgb(174, 135, 175);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.標語{
+    background-color: rgb(231, 188, 233);
+    color: rgb(36, 70, 14);
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 1.8em;
+}
+
+.店面{
+    display: flex;
+}
+
+.店面 img{
+    width: 50%;
+}
+
+.info{
+    width: 50%;
+    background-color: rgb(192, 155, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h2{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.info p{
+    align-items: center;
+    line-height: 2em;
+}
+
+.商品{
+    display: flex;
+    background-color: rgb(224, 185, 250);
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 100px 80px;
+}
+
+.商品 div{
+    width: 300px;
+    text-align: center;
+}
+
+.商品 img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.商品 h3{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.商品 p{
+    font-size: 16px;
+    line-height: 1.6em;
+
+}
+
+footer{
+    background-color: rgb(226, 179, 118);
+    color: rgb(36, 70, 14);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+@media screen and (max-width 768px){
+    header ul{
+        display: none;
+    }
+}
